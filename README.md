@@ -20,6 +20,6 @@ App is created with MVVM pattern using Android Architecture Component that is a 
 ### Screenshots
 <p align="center" float="left">
   <img src="screenshots/Screenshot_20210626_191057_com.example.notesapp.jpg" width="250" />
-  <img src="screenshots/Screenshot_20210626_191142_com.example.notesapp.jpg" width="250" /> 
+  <img src="screenshots/Screenshot_20210626_191440_com.example.notesapp.jpg" width="250" /> 
   <img src="screenshots/SVID_20210626_191237_1 (1).gif" width="250" />
 </p>
