@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_1"/>
+
+        <ImageView
+            android:id="@+id/image_color_1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_2"/>
+
+        <ImageView
+            android:id="@+id/image_color_2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_3"/>
+
+        <ImageView
+            android:id="@+id/image_color_3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_4"/>
+
+        <ImageView
+            android:id="@+id/image_color_4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_5"/>
+
+        <ImageView
+            android:id="@+id/image_color_5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_6"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_6"/>
+
+        <ImageView
+            android:id="@+id/image_color_6"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <View
+            android:id="@+id/view_color_7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_note_color_7"/>
+
+        <ImageView
+            android:id="@+id/image_color_7"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_done_24"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            app:tint="@color/white" />
+    </FrameLayout>
+</LinearLayout>

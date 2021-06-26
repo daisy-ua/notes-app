@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lilac_bush</item>
+        <item name="colorPrimaryVariant">@color/gallery</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/gallery</item>
+        <item name="searchViewStyle">@style/SearchView</item>
+    </style>
+
+    <style name="SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="queryHint">@string/search_text_holder</item>
+    </style>
+
+    <style name="ThemeOverlay.search" parent="Theme.NotesApp">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/silver</item>
+    </style>
+
+    <style name="ItemContainerCard" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

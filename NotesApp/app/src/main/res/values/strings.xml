@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string name="notes_title">All Notes</string>
+    <string name="search_text_holder">Search your notes</string>
+    <string name="add_note_description">Create new note</string>
+    <string name="default_title">Note Title</string>
+    <string name="default_subtitle">here can be your sub title</string>
+    <string name="note_content_hint">Type your note</string>
+    <string name="delete_notes">Delete notes</string>
+    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_link">Add Link</string>
+    <string name="enter_url_hint">Enter URL</string>
+    <string name="add_option">Add</string>
+    <string name="cancel_option">Cancel</string>
+    <string name="delete_option">Delete</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_note_warning">Are you sure you want to delete this note?</string>
+    <string name="select_all">Select All</string>
+    <string name="no_data_available">No notes available</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="underlined">Underlined</string>
+    <string name="save">Save</string>
+    <string name="bottom_sheet_tag">bottomSheet</string>
+    <string name="entity_notes">notes</string>
+    <string name="items">items</string>
+</resources>
